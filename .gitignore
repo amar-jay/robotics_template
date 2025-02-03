@@ -31,3 +31,10 @@ ardupilot
 *.exe
 *.out
 *.app
+/app
+/iq_sim
+detection/datasets
+detection/runs
+detection/yolo11n-pose.pt
+detection/**/*.pt #weights
+

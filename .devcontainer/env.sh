@@ -15,7 +15,7 @@ export MESA_GL_VERSION_OVERRIDE=3.3
 export LIBGL_ALWAYS_SOFTWARE=1
 
 # Optional: Source your environment to make the changes active
-source ~/.bashrc
+#source ~/.bashrc
 
 glxinfo | grep "OpenGL version"
 echo "Setup of Environment variables complete."
