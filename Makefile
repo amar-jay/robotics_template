@@ -9,5 +9,5 @@ ardupilot_gz:
 	${MYHOME}/ardupilot/Tools/autotest/sim_vehicle.py -v ArduCopter -f ${MODEL} --model JSON --map --console
 
 
-create_ws:
+create:
 	bash -c 'source ./.devcontainer/setup.sh' >> ./.devcontainer/postCreate.log 2>&1
